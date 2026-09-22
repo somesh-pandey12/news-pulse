@@ -28,6 +28,6 @@ the summary field would improve this.
 3. Frontend: `cd frontend && npm install && npm run dev` (needs a `.env.local` file — see `.env.local.example`)
 
 ## Deployment
-- Frontend: Vercel
-- Backend: Render
+- Frontend: https://news-pulse-gules-pi.vercel.app
+- Backend: https://https://news-pulse-backend-qk20.onrender.com
 - Scraper: triggered on-demand via the backend's `/ingest/trigger` endpoint
