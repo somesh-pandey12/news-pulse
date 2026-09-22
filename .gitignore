@@ -1,0 +1,16 @@
+@"
+node_modules/
+package-lock.json
+.env
+.env.local
+data/
+*.db
+.next/
+out/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db
+.vscode/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
